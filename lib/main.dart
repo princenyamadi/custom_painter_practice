@@ -1,5 +1,6 @@
 import 'dart:ui';
 import 'package:custom_painter_practice/my_painter.dart';
+import 'package:custom_painter_practice/visualizer.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,6 +29,6 @@ class MyApp extends StatelessWidget {
           // closer together (more dense) than on mobile platforms.
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: MyPainter());
+        home: Visualizer());
   }
 }
